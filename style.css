@@ -109,6 +109,7 @@ button {
 
 button:hover {
     background-color: hsl(156,46%,17%);
+    transition: 1s;
 }
 
 button img {
@@ -129,6 +130,7 @@ button img {
 }
 
 @media screen and (max-width: 650px) {
+
     main {
         max-width: 350px;
         height: 620px;
