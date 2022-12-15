@@ -87,7 +87,14 @@ h1 {
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     margin-left: 20px;
-    text-decoration: line-through;
+}
+
+.sr-only {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
 }
 
 button {
@@ -146,13 +153,7 @@ button img {
         overflow: hidden;
     }
 
-    .image img {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    .infos {
+     .infos {
         width: 100%;
         flex: 1;
     }
